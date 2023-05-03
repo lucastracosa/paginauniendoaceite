@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+:root {
+    --cor0: #070101;
+    --cor1: #020426;
+    --cor2: #030640;
+    --cor3: #F2A30F;
+    --cor4: #F29D35;
+    --cor5: #F2B807;
+    
+
+--fonte-padrão: arial, verdana, helvetica, sans-serif;
+--fonte-destaque:;
+--fonte-uniendo: ;
+}
+
+header{
+    background-color:#030640;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    padding: 0.2rem 6rem;
+    position: relative;
+}
+
+.logo{
+    max-width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 500 ;
+}
+.nav-item >a:hover{
+    color: rgb(216, 164, 9);
+}
+
+.mobile-menu-icon{
+    display: none;
+
+}
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar{padding: 1.5rem 4rem;}
+    .nav-item{ display: none;}
+    .mobile-menu-icon{display: block;}
+}
+
+.mobile-menu-icon button{
+    background-color: transparent;
+border: none;
+cursor: pointer;
+}
+
+.mobile-menu ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.mobile-menu .nav-item{
+    display: block;
+    padding: 1rem 2rem ;
+}
+.mobile-menu .login-button{
+    display: block;
+    padding: 1rem 2rem;
+}
+
+.icon{
+    max-width: 30px;
+    margin: 30px;
+
+}
+
+.mobile-menu .login-button button{
+    width: 100%;
+}
+
+.ulbar li a{
+    background-color:#030640;
+    text-decoration: none;
+    color: white;
+display: inline-block;
+margin-top: 5px;
+    padding: 10px 30px;
+    font-size: 0.8rem;
+    margin: auto;  
+}
+
+
+.ulbar{
+    background-color: #030640;
+    max-width: 180PX;
+    text-align: center;
+    margin-left: -25px;
+
+}
+
+.ampm li a {
+
+    background-color: #030640;
+    text-decoration: none;
+    color: white;
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
+    padding: 13px 30px;
+    font-size: 0.8rem;
+    margin: auto;    
+   
+}
+
+
+
+.ampm {
+    background-color: #030640;
+    max-width: 180PX;
+    text-align: center;
+    margin-left: -65px;
+}
+
+
+.ulbar li a:hover{color: rgb(216, 164, 9);
+}
+
+.ampm li a:hover{color: rgb(216, 164, 9);
+
+}
+
+
+ .nav-list ul ul{
+    display: none;
+    position: absolute;
+    
+}
+.nav-list ul ul {
+    height: 100px;
+    
+}
+
+.nav-list ul li:hover ul {
+    display: block;
+
+    
+}

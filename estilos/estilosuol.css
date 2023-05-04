@@ -10,7 +10,7 @@
 :root {
     --cor0: #070101;
     --cor1: #020426;
-    --cor2: #0004ff;
+    --cor2: #030640;
     --cor3: #F2A30F;
     --cor4: #F29D35;
     --cor5: #F2B807;
@@ -22,8 +22,12 @@
 --fonte-uniendo: ;
 }
 
+body{
+    background-color: var(--cor0);
+}
+
 header{
-    background-color: var(--cor2);
+    background-color: var(--cor6);
     box-shadow: 0px 3px 10px #464646;
 }
 
@@ -57,8 +61,8 @@ header{
 .nav-link{
     text-decoration: none;
     font-size: 0.7rem;
-    color: white;
-    font-weight: 500 ;
+    color: var(--cor0);
+    font-weight: 600 ;
 }
 .nav-item >a:hover{
     color: rgb(216, 164, 9);
@@ -111,9 +115,9 @@ cursor: pointer;
 }
 
 .ulbar li a{
-    background-color: var(--cor2);
+    background-color:var(--cor6);
     text-decoration: none;
-    color: white;
+    color:var(--cor0);
 display: inline-block;
 margin-top: 5px;
     padding: 10px 30px;
@@ -123,7 +127,7 @@ margin-top: 5px;
 
 
 .ulbar{
-    background-color: var(--cor2);
+    background-color: var(--cor6);
     max-width: 180PX;
     text-align: center;
     margin-left: -28px;
@@ -132,9 +136,9 @@ margin-top: 5px;
 
 .ampm li a {
 
-    background-color: var(--cor2);
+    background-color: var(--cor6);
     text-decoration: none;
-    color: white;
+    color: var(--cor0);
 display: inline-block;
 margin-top: 5px;
 margin-bottom: 5px;
@@ -147,7 +151,7 @@ margin-bottom: 5px;
 
 
 .ampm {
-    background-color: var(--cor2);
+    background-color: var(--cor6);
     max-width: 180PX;
     text-align: center;
     margin-left: -70px;

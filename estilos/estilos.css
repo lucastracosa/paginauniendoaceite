@@ -182,9 +182,19 @@ margin-bottom: 5px;
     
 }
 
+
 main{
     height: 600PX;
-    background-image: url('img?');
+    
+   
+}
+
+main#principal{
+
+    background-image: url('../img/lampara.jpg');
+    background-position: center center;
+    background-size: 1080px;
+    background-repeat: no-repeat;
 }
 
 footer{

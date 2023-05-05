@@ -204,11 +204,12 @@ main > p{
 }
 
 main#principal{
-
+height: 100vh;
     background-image: url('../img/lampara.jpg');
     background-position: center center;
-    background-size: 1920px;
+    background-size: cover;
     background-repeat: no-repeat;
+   
 }
 
 

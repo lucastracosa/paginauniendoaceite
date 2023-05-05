@@ -184,27 +184,34 @@ margin-bottom: 5px;
 }
 
 
-main{
+section{
     height: 1000PX;
+
     
    
 }
 
-main > p{
+section > p{
+    
     display: block;
     font-size: 40px;
     text-align: center;
     color: var(--cor6);
     font-weight: 400;
     font-style: italic;
-    padding: 280px 30px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
    
 
 
 }
 
-main#principal{
-height: 100vh;
+section#principal{
+height: 111vh;
+background-color: #000000;
     background-image: url('../img/lampara.jpg');
     background-position: center center;
     background-size: cover;
@@ -213,15 +220,22 @@ height: 100vh;
 }
 
 
+
+
 article{
-    margin-top: 200px;
+    position: relative;
     background-color: var(--cor0);
     height: 600px;
-    margin: 100$;
+    margin-top: 600px;
+    padding: 0px;
 }
 
  .blocoprincipal{
-    padding: 40px 55px 50px 150px;
+
+    position: absolute;
+    left: 10%;
+    top:10%;
+    transform: translate(-50% -50%);
 }
 
 article .bloco{
@@ -233,6 +247,20 @@ article .bloco{
     margin: 30px 20px;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 1350px) {
+    
+    div#q3{ display: none;}
+}    
+@media screen and (max-width: 900px) {
+    
+    div#q2{ display: none;}
+}    
+@media screen and (max-width: 600px){
+    div#q1 {position: absolute;
+ }}
+    
+
 
 div#q1{
 background-color: var(--cor4);

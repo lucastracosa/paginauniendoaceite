@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
-    padding: 0;
+    padding: 0px;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 } 
@@ -24,6 +24,7 @@
 --fonte-uniendo: ;
 }
 
+body{ height: 2000px;}
 
 
 header{
@@ -184,7 +185,7 @@ margin-bottom: 5px;
 
 
 main{
-    height: 600PX;
+    height: 1000PX;
     
    
 }
@@ -196,7 +197,7 @@ main > p{
     color: var(--cor6);
     font-weight: 400;
     font-style: italic;
-    padding: 200px;
+    padding: 280px 30px;
    
 
 
@@ -210,18 +211,55 @@ main#principal{
     background-repeat: no-repeat;
 }
 
+
+article{
+    margin-top: 200px;
+    background-color: var(--cor0);
+    height: 600px;
+    margin: 100$;
+}
+
+ .blocoprincipal{
+    padding: 40px 55px 50px 150px;
+}
+
+article .bloco{
+    background-color: rgb(207, 197, 224);
+    display: inline-block;
+    padding: 30px 30px;
+    width: 300px;
+    height: 400px;
+    margin: 30px 20px;
+    border-radius: 10px;
+}
+
+div#q1{
+background-color: var(--cor4);
+}
+
+div#q2{
+
+    background-color: #F2F2F2;
+}
+
+div#q3{
+    background-color: #1206f5;
+
+}
+
 footer{
     background-image: linear-gradient(to bottom, var(--cor0) 80%, var(--cor4) );
     height: 280px;
 
     text-align: left;
     padding: 30px 20px;
-    margin: 0; 
+    margin-top: 1000px; 
    
 }
 
 .footer1  a{
     font-weight: 700;
+    ;
    
 
 }
